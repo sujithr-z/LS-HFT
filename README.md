@@ -56,6 +56,11 @@ python scripts/generate_plots.py
 
 # 6. Run tests
 pytest tests/ -v
+
+#7. if you want to analysis bera coin
+cd d:\HFT_trading\LS-HFT
+python scripts/bera_analysis.py
+
 ```
 
 ---
