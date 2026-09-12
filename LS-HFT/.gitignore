@@ -1,0 +1,91 @@
+# =============================================================================
+# .gitignore — LS-HFT project
+# =============================================================================
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+*.env
+
+# ── Build / distribution ───────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+*.coveragerc
+
+# ── Type checkers / linters ───────────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Raw market data (can be re-downloaded) ────────────────────────────────────
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# ── Generated outputs ─────────────────────────────────────────────────────────
+outputs/figures/
+outputs/reports/
+outputs/models/
+*.png
+*.jpg
+*.pdf
+
+# Keep the outputs folder itself
+!outputs/.gitkeep
+
+# ── Secrets / config overrides ────────────────────────────────────────────────
+.secrets
+secrets.yaml
+secrets.json
+*.key
+*.pem
+api_keys.py
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Miscellaneous ─────────────────────────────────────────────────────────────
+*.bak
+*.tmp
+read\ me.txt

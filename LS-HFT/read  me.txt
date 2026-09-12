@@ -1,0 +1,2 @@
+cd d:\HFT_trading\LS-HFT
+python scripts/bera_analysis.py
